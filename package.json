@@ -19,9 +19,13 @@
 		"webpack-cli": "^4.10.0"
 	},
 	"repository": {
-		"type": "git",
+		"type": "git/npm",
 		"url": "https://github.com/web-2017/framework-ui-kit.git"
 	},
+	"keywords": [
+		"test",
+		"test1"
+	],
 	"peerDependencies": {
 		"react": "*",
 		"react-dom": "*"
