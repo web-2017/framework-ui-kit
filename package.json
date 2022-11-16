@@ -1,0 +1,28 @@
+{
+	"name": "framework-ui-kit",
+	"version": "1.0.2",
+	"main": "./dist/index.js",
+	"author": "Mario Magomedov",
+	"license": "MIT",
+	"scripts": {
+		"publish": "npx webpack && npm version patch && npm publish"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.25",
+		"css-loader": "^6.7.2",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"style-loader": "^3.3.1",
+		"ts-loader": "^9.4.1",
+		"typescript": "^4.9.3",
+		"webpack": "^5.75.0",
+		"webpack-cli": "^4.10.0"
+	},
+	"peerDependencies": {
+		"react": "*",
+		"react-dom": "*"
+	},
+	"files": [
+		"dist"
+	]
+}
